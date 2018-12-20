@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Palanquin:100,300,400,700" rel="stylesheet">
+<link href="Styles/p-styles-1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<div class="header-front-page default-width">
+		<a href="index.html" class="signature" title="Front page">Malene<br>Bille</a>
+		
+		<button class="toogle-menu" id="toggle-menu">
+			<img class="open" src="Images/close-cross.svg" alt="Close">
+			<img class="close" src="Images/burger-menu.svg" alt="Menu">
+		</button>
+		
+		<nav class="top-nav">
+			<ul class="top-nav-list">
+			  <li><a href="work.html">Work</a></li>
+			  <li><a href="process.html">Process</a></li>
+			  <li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+	
+<main>
+  <div class="container">
+    <div class="content-container-inner container-inner container-left">
+      <div class="container-leftup">
+        <h1>Projects</h1>
+      </div>
+      <div class="container-leftdown">
+		<p>In the image gallery you can see my preliminary school projects. Please click on one of the images to know more about the individual project.</p>
+		</div>
+    </div>
+   
+	  <div class="content-container-inner container-inner container-right">
+      <div class="gallery">
+        
+		  <div class="gallery-item"> <a href="#portfolio" rel="modal:open" title="Portfolio project">
+          <div class="gallery-item-background" style="background-image: url('Images/fugl-ikke-fritlagt.png');"></div>
+          <h2>Portfolio</h2>
+          </a> </div>
+		  
+		  <!-- Modal vindue til individuelle projekter. -->
+        <div id="portfolio" class="modal">
+          <div class="container">
+            <div class="content-container-inner container-inner container-left">
+              <div class="container-leftup">
+                <h1>Portfolio</h1>
+				  <p>The portfolio project had three stages of development throughout this semester; first I had to dream it in XD, then build it with html and CSS and finally redesign the portfolio based on user tests and general feedback.</p>
+              </div>
+              <div class="container-leftdown"> 
+				  
+				  <h2>1 - The portfolio dream in XD</h2>
+				  <p>The <a href="Pdf-links/project-description.pdf">assignment</a> was to create a portfolio prototype in XD. My portfolio <a href="Pdf-links/Portfolio Opgave.pdf">prototype</a> was experience-based, which would challenge me and a potential user if I chose to code it. Because of the experience-based design and the interface, a user would easily loose the general overview of the site and “get lost”. Furthermore, I would be challenged when I had to add new projects to my portfolio later.
+
+				  <h2>2 - Portfolio website with html and CSS</h2>
+				  <p>At this stage I had to code the portfolio from scratch. Since the prototype in XD was experience-based and would make a user "get lost" on the site. I had to rethink the design and the interface and I decided to skip the original ideas and start all over. <a href="Pdf-links/project-description2.pdf">In the second portfolio version</a> the interface was still a mess and a user could easily get lost when I added new projects. Some of the fails was due to a bad design and others were simply there because I did not know how to code them properly. Furthermore, I had not yet learned how to make a website responsive and the result was a website that only worked on desktops. Back to improve the design and the code.
+				  </p>
+				  
+				  <h2>3 - The exam and redesign of the portfolio</h2>
+				  <p>At this stage in the learning process I knew that it was easier for me to approach a project when I worked from the five stages of <a href="process.html#design-thinking">Design Thinking</a>; empathize, define, ideate, prototype and test. I also created a <a href="Pdf-links/Gant.pdf">Gantt chart</a> in Excel to keep track of my project time and uploaded the portfolio code in <a href="" alt="">GitHub</a></p>
+				  
+				  <h3>Empathize and Define</h3>
+				  <p>First I had to be clear of what I want my portfolio to be? Playful, serious, avantgarde? How do I want to portray myself for a potential employer, a collegue or a fellow student?</p>
+				  <p>One of the things I really wanted to show in my portfolio is the fact that I like to be creative. In the first stage of my portfolio I incorporated a handdrawn bird as a background image and I thought that it would be a nice way to show my creative side, so I reused that part of the design.<br>Since one of my potential users would be an employer I also wanted my portfolio to demonstrate the serious side of me; that I'm stable, trusworthy and loyal. So I decided to go with the classic blue colors to symbolize these types of virtues.</p>
+				  <h3>Ideate</h3>
+				  <p>To create a clear workflow for myself I segregated the ideate process in two; the informative structure and the design.</p>
+				  <h4>Structure</h4>
+				  <p>In the structural process I started with an analogue sitemap where I chose the classic hierarchical approach. <img src="Images/wireframe.png" alt""> The wireframe should be as simple as possible - not just for the usability but also to make the work process as manageable as possible the short working time taken into account. Therefore I decided to a maximum of three basic pages to the wireframes. <img src"Images/wireframe4.png" alt""> The advantage of this decision was that it saved me some time in the coding process and made it easier for me to be consistent with the design on all sites of the portfolio.</p>
+				  
+				  <h4>Design</h4>
+				  <p>In the design process I used both analogue and digital sketches to create moodboard, mockups and styletyles for my portfolio.</p>
+				  <br>
+				  <p class="sub-subtitle">Dual page design</p>
+				  
+				  <div class="row">
+					  <div class="column">
+					    <img src="Images/wireframe-3.png" alt"">
+						  </div>
+					  <div class="column">
+					    <img src="Images/mockup-ps-project.png" alt"">
+					  </div>
+				  </div>
+				  
+				  <p>As you can see from the mockups I worked with a dual page design with two boxes on the left and a gallery on the right. The benefit of this design is that I can use it for both the project- and the learning page. It creates an overview of all the projects/learning processes and gives a potential user to decide what specific project he/she would like to see. In the two previous portfolios the projects were simply stacked in a one-paged site where you had to scroll a lot to see the individual projects.</p>
+				  <br>
+				  <p>In terms of the gallery features I also played with the idea of a slide function.<img src="Images/mockup-ps-projectt-gallery.png" alt""> The problem with this type of gallery is that the user cannot see all the projects at once.</p>
+				  <br>
+				  
+				  <p>The fontpage I wanted to be different than the content pages.
+				  
+				  <div class="row">
+					  <div class="column">
+					    <img src="Images/mockup-mainpage2.png" alt"">
+						  </div>
+					  <div class="column">
+					    <img src="Images/mockup-mainpage.png" alt"">
+					  </div>
+				  </div>
+				  I chose to go with the mockup that had a box that was off-set compared to the dual page design. It made more sence to me in terms of sticking to the design idea and keep the vertical and horisontal lines. You can argue that a rotated box would make the front page stand out, but I simply liked the off-set box better.
+				  </p>
+				  
+				  <p class="sub-subtitle">Colors</p>
+				  I wanted my portfolio to convey both a playful and a serious side. To convey the playful side of me I went with a handdrawn image that I edited in photoshop. The image is originally just a b/w pencil drawing but in photoshop I embedded the image and added the blue color I wanted.
+				
+				  <div class="row">
+					  <div class="column">
+					    <img src="Images/Skitse.png" alt"">
+						  </div>
+					  <div class="column">
+					    <img src="Images/fugl-ikke-fritlagt.png" alt"">
+					  </div>
+				  </div>
+				 
+				  <p class="sub-subtitle">Fonts</p>
+				  <p>The font was difficult and I played with many different types.
+				  <img class="left-fullwidth" src="Images/font.png" alt="">
+				  I chose to go with the font Palanquin, not just because of the readability but because I liked its clean style and the variations between the lighter and the bolder font.</p>
+				  <br>
+				
+				  <h3>Prototype</h3>
+				  <p>After working with the informative structure and design I now had a solid idea and fundament for continuing to the next stage - the <a href="https://xd.adobe.com/view/773d190f-0277-4907-78a0-a675c5deb82f-010c/">XD prototype.</a></p>
+				  <br><h3>Test</h3>
+				  <p>Since my mayor challenge was to create a website that wasn't too experiment-based, I wanted to check whether a user would be able to navigate on the site without getting lost. I wanted to see the users actually clicking around the site, so I went with the qualitative "think-aloud" usertest. I asked three persons between 17 and 44, two girls and a guy, to click around my portfolio and give me feedback. After they had clicked around by themselves I asked them to individually to find my Dogwalk Project. All but one was able find it. I thought the succes rate 2/3 was pretty good. I asked the girl that couldn't find the project what I could do differently in order for her to find it, and she thought I should maybe do the font in a diferent color, or just bigger. I made the font a little bigger but kept the white textcolor. The overall navigation stayed the same.</p>
+              </div>
+            </div>
+            <div class="container-inner content-container-inner modal-image" style="background-image: url('Images/fugl-ikke-fritlagt.png');"></div>
+          </div>
+        </div>
+		  
+		  <!-- Modal vindue til individuelle projekter. -->
+		  
+		  <div class="gallery-item"> <a href="#dogwalk" rel="modal:open" title="Dogwalk project">
+          <div class="gallery-item-background" style="background-image: url('Images/app-project.PNG');"></div>
+          <h2>Dogwalk App</h2>
+          </a> 
+		</div>
+		  
+		  
+		  <!-- Modal vindue til individuelle projekter. -->
+        <div id="dogwalk" class="modal">
+          <div class="container">
+            <div class="content-container-inner container-inner container-left">
+              <div class="container-leftup">
+                <h1>Dogwalk App</h1>
+              </div>
+              <div class="container-leftdown">
+                <h2>The challenge</h2>
+				  <p>To develop an app prototype based on one of the following themes; wheather, listing alerts or sportstracking.<br>I decided to go with the third option and create a sportstracking app for dogs.</p>
+				  <h2>The process</h2>
+				  <p>In the process of developing a prototype in XD, I worked from the concept of Design Thinking and split the tasks in five categories</p>
+				  <ul>
+				  	  <li>Empathize</li>
+					  <li>Define</li>
+					  <li>Ideate</li>
+					  <li>Prototype</li>
+					  <li>Test</li>
+				  </ul>
+				  <p><a href="Pdf-links/app-sport-malene-bille.pdf">To see the original prototype and a full description of the work process.</a></p>
+				  <h2>Remake of the project</h2>
+				  <p>Based on the feedback I got from the prototype, I chose to redesign the search page of the app. The interface of the original search page could be more user friendly. To do so, I moved the search icon into the actual search field and changed the background and font color of the call-to-action button. The difference is clear on the images below. </p>
+				  <div class="row">
+					  <div class="column">
+					    <img src="Images/dogwalk-search-pen.png" alt"">
+						  </div>
+					  <div class="column">
+					    <img src="Images/dogwalk-search-remake.png" alt"">
+					  </div>
+				  </div>
+              
+				<p>With a few changes the interface is optimized and the search page is more user friendly.  Even though I sometimes get frustrated about <a href="process.html#app-errors">making errors in the learning process</a>, I am also surprised how little you have to change to make a site better.</p>
+            </div>
+				</div>
+            <div class="container-inner content-container-inner modal-image" style="background-image: url('Images/app-project.PNG');"></div>
+          </div>
+        </div>
+		  
+		  <!-- Modal vindue til individuelle projekter. -->
+       
+        </div>
+    </div>
+  </div>
+</main>
+<script src="Javascript/site.js"></script>
+</body>
+</html>

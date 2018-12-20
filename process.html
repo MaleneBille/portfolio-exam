@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Palanquin:100,300,400,700" rel="stylesheet">
+<link href="Styles/p-styles-1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<div class="header-front-page default-width">
+		<a href="index.html" class="signature" title="Front page">Malene<br>Bille</a>
+		
+		<button class="toogle-menu" id="toggle-menu">
+			<img class="open" src="Images/close-cross.svg" alt="Close">
+			<img class="close" src="Images/burger-menu.svg" alt="Menu">
+		</button>
+		
+		<nav class="top-nav">
+			<ul class="top-nav-list">
+			  <li><a href="work.html">Work</a></li>
+			  <li><a href="process.html">Process</a></li>
+			  <li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+	
+	
+	<main>
+  <div class="container">
+    <div class="content-container-inner container-inner container-left">
+      <div class="container-leftup">
+        <h1>Learning Process</h1>
+		  <p>To see my learning process within a specific area please click on one of the themes to the right.</p>
+      </div>
+      <div class="container-leftdown">
+		<h3>Visual and verbal learning</h3>
+		  <p>To learn new things it is nice to know how you learn best and which approach to take in order to learn new things. For me, learning is all about the visual and the verbal aspect. Therefore I like to sketch by hand when I do mockups, read about how to code, and not just being told how to do it, write lists to myself on how I will approach a project and so on.</p><br>
+		  <h3 id="app-errors">Making errors</h3>
+		  <p>Last but not least I need to fail and make errors in order to remember what to do and what not to do. I must admit I will never be a fan of the feeling of frustration it evokes, but it is certainly an effective step in the learning process.</p>
+		</div>
+    </div>
+    
+	  <div class="content-container-inner container-inner container-right">
+      <div class="gallery">
+        <div class="gallery-item"> <a href="#design" rel="modal:open" title="Design">
+          <div class="gallery-item-background" style="background-image: url('Images/design.png');"></div>
+          <h2>Design</h2></a> 
+		</div>
+		  
+		  <!-- Modal vindue til individuelle projekter. -->
+        <div id="design" class="modal">
+          <div class="container">
+            <div class="content-container-inner container-inner container-left">
+              <div class="container-leftup">
+                <h1>Design</h1>
+              </div>
+              <div class="container-leftdown">
+				  <h3>Design and Communication</h3><br>
+                	<h4>Tools</h4><p>I have a basic understanding of the following design tools;
+				  <ul>
+				  <li>Photoshop</li>
+				  <li>XD Prototype</li>
+				  <li>Illustrator</li>
+				  </ul>
+				  You can say that it is a never ending story learning these tools but to be consistent in using them will hopefully improve my skills. Especially photoshop has so many features and possibilities I still need to learn, not just because of a future job but because I like to draw, and with photoshop I can play with colors in a way cannot when I color by hand.</p><br>
+				  <h4 id="design-thinking">Theory</h4><p>Design and communication are often two sides of the same coin. A good design can get messy if the communication is not clear and structured communication can become complex if the design is not there to guide the user.<br><br>One of the theories I enjoy applying in projects is the Design Thinking theory because it helps me create an overview of the project process. It is so simple and yet so complex. The structure of the theory is simple and only contains five steps; empathize, define, ideate, prototype and test. It is a never ending process where you can go through the five steps as many times you need (or for as long you can).</p>
+              </div>
+            </div>
+            <div class="content-container-inner container-inner modal-image" style="background-image: url('Images/design.png');"></div>
+          </div>
+        </div>
+		  <!-- Modal vindue til individuelle projekter. -->
+		  
+		    <div class="gallery-item"> <a href="#code" rel="modal:open" title="Code">
+          <div class="gallery-item-background" style="background-image: url('Images/code.png');"></div>
+          <h2>Code</h2>
+          </a> 
+		</div>
+		  
+		    <!-- Modal vindue til individuelle projekter. -->
+        <div id="code" class="modal">
+          <div class="container">
+            <div class="content-container-inner container-inner container-left">
+              <div class="container-leftup">
+                <h1>Code</h1>
+              </div>
+              <div class="container-leftdown">
+				  <h3>HTML and CSS</h3>
+				  
+				  <p>I have acquired basic skills within html and CSS but I still have a long way to get where I want to be and become a front-end developer.<br>Some of the things I have to focus on improving is how to make a website responsive and to be more comfortable in using the flexbox properties. I still find myself struggling quite a lot with these areas of coding.<br><br>To improve my coding skills I have to code, code and code some more. For me it is all about practice and repetition in order to improve.</p>
+                	
+				  <h3>jQuery</h3>
+                	<p>jQuery is the pocket version of JavaScript and I am eager to learn more in this area. I really want to be able to code JavaScript myself and not just juse a jQuery library. Not only will JavaScript bring me closer to become a front-end developer, but it will (hopefully) give me a broader understanding of coding and its possibilities in general.</p>
+              </div>
+            </div>
+            <div class="content-container-inner container-inner modal-image" style="background-image: url('Images/code.png');"></div>
+          </div>
+        </div>
+		  <!-- Modal vindue til individuelle projekter. -->
+		  
+		  </div>
+  	</div>
+	</div>
+</main>
+<script src="Javascript/site.js"></script>
+</body>
+</html>
